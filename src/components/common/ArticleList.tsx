@@ -74,8 +74,7 @@ type ArticleListProps = {
 
 const ArticleList = ({ title, articles, loading }: ArticleListProps) => {
 	return (
-		<div className="flex-1 p-4">
-			<ArticleTitle title={title} />
+		<div className="flex p-4">
 			{loading ? (
 				<p className="text-center text-gray-500">Loading...</p>
 			) : articles.length === 0 ? (
