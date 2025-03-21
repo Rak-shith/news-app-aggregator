@@ -1,5 +1,4 @@
-import React from "react";
-import ArticleTitle from "./ArticleTitle";
+
 
 type Article = {
 	title: string;
